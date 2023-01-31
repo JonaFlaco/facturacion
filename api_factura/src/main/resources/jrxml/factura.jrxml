@@ -17,6 +17,7 @@
 	<parameter name="fecha" class="java.sql.Date"/>
 	<parameter name="observacion" class="java.lang.String"/>
 	<parameter name="nro" class="java.lang.String"/>
+	<parameter name="autor" class="java.lang.String"/>
 	<queryString language="SQL">
 		<![CDATA[]]>
 	</queryString>
@@ -91,7 +92,7 @@
 				<text><![CDATA[Fecha:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Opaque" x="170" y="10" width="209" height="30" forecolor="#FFFFFF" backcolor="#3BACF7" uuid="81c9c40b-e60b-42d1-8aed-006e7d6411e2"/>
+				<reportElement mode="Opaque" x="190" y="3" width="170" height="30" forecolor="#FFFFFF" backcolor="#FC870A" uuid="81c9c40b-e60b-42d1-8aed-006e7d6411e2"/>
 				<box>
 					<pen lineWidth="0.25"/>
 				</box>
@@ -106,9 +107,16 @@
 				<patternExpression><![CDATA["MM/dd/yyyy"]]></patternExpression>
 			</textField>
 			<image>
-				<reportElement x="10" y="3" width="90" height="57" uuid="facecbe2-7001-4ce2-8027-960d0ae247f2"/>
+				<reportElement x="70" y="-10" width="90" height="57" uuid="facecbe2-7001-4ce2-8027-960d0ae247f2"/>
 				<imageExpression><![CDATA["classpath:jrxml/company.png"]]></imageExpression>
 			</image>
+			<staticText>
+				<reportElement x="211" y="3" width="140" height="30" forecolor="#FCFCFC" uuid="9e33f5f0-9cc1-4a79-b200-995b3a2ae8d1"/>
+				<textElement>
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Facturacion chida]]></text>
+			</staticText>
 		</band>
 	</title>
 	<detail>
@@ -120,4 +128,16 @@
 			</subreport>
 		</band>
 	</detail>
+	<lastPageFooter>
+		<band height="55">
+			<staticText>
+				<reportElement x="330" y="12" width="100" height="30" uuid="b179d931-33c3-445e-9663-8b2f18924ba8"/>
+				<text><![CDATA[autor:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="440" y="12" width="100" height="30" uuid="fa9155c0-5035-4df2-8be0-fe283ee435f9"/>
+				<textFieldExpression><![CDATA[$P{autor}]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
 </jasperReport>

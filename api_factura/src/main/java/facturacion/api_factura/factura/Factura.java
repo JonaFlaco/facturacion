@@ -22,6 +22,7 @@ class Factura {
     private LocalDate fecha;
     private Long clienteId;
     private BigDecimal total;
+    private String jicy;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "factura_id")

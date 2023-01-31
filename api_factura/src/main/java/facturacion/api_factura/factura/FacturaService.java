@@ -52,6 +52,7 @@ public class FacturaService {
         
         reportParameters.put("nro", factura.getNumeroFactura());
         reportParameters.put("fecha",Date.valueOf(factura.getFecha()));
+        reportParameters.put("autor", factura.getJicy());
 
         CustomerDTO cliente =  customerClient.findCustomerById(factura.getClienteId());
         reportParameters.put("nombre_cliente", cliente.getRazon_social());

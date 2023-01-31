@@ -17,7 +17,7 @@
 	<columnHeader>
 		<band height="20" splitType="Stretch">
 			<staticText>
-				<reportElement style="Style1" mode="Opaque" x="250" y="0" width="100" height="20" forecolor="#FFFFFF" backcolor="#6BBFED" uuid="af14f2bf-0a0b-410e-80a2-02872f7150c0">
+				<reportElement style="Style1" mode="Opaque" x="250" y="0" width="100" height="20" forecolor="#FFFFFF" backcolor="#6F76ED" uuid="af14f2bf-0a0b-410e-80a2-02872f7150c0">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="afced960-0557-455d-a52f-f19ce2b1f1fd"/>
 				</reportElement>
 				<box padding="1">
@@ -32,7 +32,7 @@
 				<text><![CDATA[Cantidad]]></text>
 			</staticText>
 			<staticText>
-				<reportElement style="Style1" x="0" y="0" width="250" height="20" backcolor="#6BBFED" uuid="939ed769-cb43-4a5f-aa0d-b92ae9563f6e">
+				<reportElement style="Style1" x="0" y="0" width="250" height="20" backcolor="#7A6FED" uuid="939ed769-cb43-4a5f-aa0d-b92ae9563f6e">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ce687dc5-69b0-4c3f-aa24-5d47bd97cb05"/>
 				</reportElement>
 				<box padding="1">
@@ -45,7 +45,7 @@
 				<text><![CDATA[Producto]]></text>
 			</staticText>
 			<staticText>
-				<reportElement style="Style1" x="350" y="0" width="100" height="20" backcolor="#6BBFED" uuid="2e665df3-d8db-464d-93d9-701eaa28e810">
+				<reportElement style="Style1" x="350" y="0" width="100" height="20" backcolor="#6F84ED" uuid="2e665df3-d8db-464d-93d9-701eaa28e810">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9de61575-b0e1-41c7-a002-24489d306c93"/>
 				</reportElement>
 				<box padding="1">
@@ -58,7 +58,7 @@
 				<text><![CDATA[Precio]]></text>
 			</staticText>
 			<staticText>
-				<reportElement style="Style1" x="450" y="0" width="100" height="20" backcolor="#6BBFED" uuid="ec889a2a-d1c1-47b3-b6d9-a6ca312063c5">
+				<reportElement style="Style1" x="450" y="0" width="100" height="20" backcolor="#6F87ED" uuid="ec889a2a-d1c1-47b3-b6d9-a6ca312063c5">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0ca5158d-b09b-40fa-8095-fc4d96b2193a"/>
 				</reportElement>
 				<box padding="1">
@@ -126,7 +126,7 @@
 		</band>
 	</detail>
 	<summary>
-		<band height="58">
+		<band height="54">
 			<textField>
 				<reportElement style="numeros" x="450" y="10" width="100" height="30" uuid="e8c3b291-2f97-426c-bf65-8961698c3c20"/>
 				<textElement>
